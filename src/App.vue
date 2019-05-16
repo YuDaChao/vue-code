@@ -15,16 +15,19 @@
       @click="handleClick"
       @test="handleTest"
     />
+    <watch-demo />
   </div>
 </template>
 
 <script>
-import VProps from './components/props/Props.vue'
+import VProps from './components/instance-attrs/Props.vue'
+import WatchDemo from './components/instance-methods-data/watch-demo'
 
 export default {
   name: 'app',
   components: {
-    VProps
+    VProps,
+    WatchDemo
   },
   methods: {
     handleClick () {},
