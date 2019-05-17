@@ -36,7 +36,6 @@ export default {
   },
   mounted () {
     console.log(this.$props)
-    console.log(this.$listeners)
   }
 }
 </script>
